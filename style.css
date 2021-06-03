@@ -1,0 +1,445 @@
+body{
+    background-image: url('images/img3.jpg');
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.opis{
+    font-size: 19px;
+    color: black;
+    text-align: justify;
+    text-indent: 40px;
+}
+.szoveg{
+    font-size: 19px;
+    color: black;
+    text-align: justify;
+}
+.sorolas{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+.keret{
+    background-color: transparent;
+    width: 980px;
+    margin: auto;
+}
+h1{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    color: crimson;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+}
+p{
+    color: black;
+    font-size: 18px;
+    text-align:justify;
+    margin:0;
+}
+h2{
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.kozep{
+	color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 90px;
+}
+.kontaktok{
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+.alap{
+    width: 1024px;
+    margin: auto;
+    height:auto;
+}
+.border{ 
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    float:left;
+    padding: 10px;
+    margin-top: 50px;
+	width:500px; /* 440*/
+}
+.cardv {
+    background-image: url("images/pattern.jpg");
+    background-size:1024px;
+    height: auto;
+    margin:auto;
+}
+.cardv_cennik{
+    background-image: url("images/pattern.jpg");
+    background-size:1024px;
+    height: 1100px;
+    margin:auto;
+}
+.cardv_fotky{
+    background-image: url("images/pattern.jpg");
+    background-size:1024px;
+    height: 900px;
+    margin: auto;
+}
+.cardv_signup{
+    background-image: url("images/pattern.jpg");
+    background-size:1024px;
+    height: 660px;
+    margin: auto;
+}
+.cardb{
+    background-color: black;
+    width: 650px; 
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 720px;
+    border-radius: 3%;
+}
+.topnav a:hover {
+    background-color:crimson;
+    color:black;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+.topnav {
+    overflow: hidden;
+    width: 1024px;
+    margin: auto;
+    background-color:#111;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    width: 1024px;
+    margin: auto;
+    background-image: url("images/pattern.jpg");
+}
+* {
+    box-sizing: border-box;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    color: black;
+    padding: 8px;
+}
+.recept {
+    width: 400px;
+    border: 1px solid black;
+    color: black;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+.bgimg-1, .bgimg-2 {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.bgimg-2 {
+    background-color: black;
+    min-height: 100px;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+padding-top: 40px;
+max-width: 600px;
+min-height: 600px;
+position: relative;
+margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: crimson;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+footer {
+    padding: 30px;
+    text-align: center;
+    width: 1024px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+}
+.fszoveg{
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: crimson;
+    background: black;
+    max-width: 360px;
+    margin: auto;
+    padding: 45px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width:100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+.choroby-gallery{
+    margin: 50px 10px auto auto;
+    float: right;
+    width: 430px;
+    height: 250px;
+    color:black;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.gallery:hover {
+    border: 1px solid #777;
+} 
+.gallery img {
+    width: 100%;
+    height: 200px;
+} 
+.desc {
+    padding: 15px;
+    text-align: center;
+    color:black;
+}
+textarea{
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    resize: none;
+    margin-left: 20px;
+}
+button{
+    width:180px;
+    height: 50px;
+    background-color: crimson;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.com-button{
+    width:100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.comment-box{
+    width: 970px;
+    padding: 20px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    background-color: brown;
+    border-radius: 4px;
+    position: relative;
+    color:white
+}
+.edit-form{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+.edit-form button{
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+.comment-section{
+    width: 1024px;
+    padding-top: 2px;
+    margin:auto;
+    padding-bottom: 5px;
+    background-image: url('images/pattern.jpg');
+    height: 376px;
+    overflow: auto;
+    float: left;
+    position: absolute;
+}
+.main-footer{
+    padding: 30px;
+    text-align: center;
+    width: 1024px;
+    height: 120px;
+    margin-top: 376px;
+    background-color: black;
+    position: relative;
+}
+.delete-form{
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+.delete-form button{
+    width: 45px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+.need-login{
+    color: black;
+    font-size: bold;
+    text-align: center;
+}
+.login-button{
+    text-transform: uppercase;
+    outline:0;
+    background: brown;
+    border: 0;
+    padding: 15px;
+    color: orange;
+    font-size: 14px;
+    cursor: pointer;
+    width: 250px;
+    height:50px
+}
+.table-recept{
+    width: 700px;
+    height: auto;
+    border-width: 1px;
+    color: black;   
+    margin-left:140px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
